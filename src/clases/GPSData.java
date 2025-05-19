@@ -1,3 +1,5 @@
+package clases;
+
 public class GPSData {
     String busId;
     String timestamp;

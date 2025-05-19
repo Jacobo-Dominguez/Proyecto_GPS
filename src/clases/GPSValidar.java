@@ -1,3 +1,5 @@
+package clases;
+
 public class GPSValidar {
     public static boolean isValid(GPSData data) {
         if (data == null) return false;

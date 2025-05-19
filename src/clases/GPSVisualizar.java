@@ -1,8 +1,10 @@
+package clases;
+
 import java.util.List;
 
 public class GPSVisualizar {
     public static void mostrarTrayecto(List<GPSData> dataList, String busId) {
-        System.out.println("Trayecto del autobús " + busId + ":");
+        System.out.println("\nTrayecto del autobús " + busId + ":");
 
         // Filtrar datos válidos y del bus específico, y ordenar por timestamp
         dataList.stream()

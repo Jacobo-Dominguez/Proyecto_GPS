@@ -1,3 +1,9 @@
+package ejecuciones;
+
+import clases.GPSCargar;
+import clases.GPSData;
+import clases.GPSModificar;
+
 import java.util.List;
 
 public class MainModificar {
